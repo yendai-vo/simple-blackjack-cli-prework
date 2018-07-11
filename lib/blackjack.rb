@@ -31,9 +31,9 @@ end
 def hit?(number)
   prompt_user()
   input = get_user_input()
-
+  total = number
   if input == "h"
-   return deal_card() + number
+    total = deal_card() + number
  elsif input != "s"
     invalid_command()
     prompt_user()
