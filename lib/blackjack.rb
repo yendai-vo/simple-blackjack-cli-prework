@@ -51,7 +51,7 @@ end
 
 def runner
   welcome()
-  count = inital_round()
+  count = initial_round()
   until count > 21
     count = hit?(count)
   end
