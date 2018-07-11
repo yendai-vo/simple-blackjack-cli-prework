@@ -34,9 +34,7 @@ def hit?(number)
 
   if input == "h"
    deal_card() + number
-  elsif input == "s"
-    prompt_user()
-  else
+ elsif input != "s"
     invalid_command()
     prompt_user()
   end
