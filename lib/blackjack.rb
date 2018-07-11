@@ -40,8 +40,8 @@ def hit(number)
       rand(1..11)
     end
   elsif input == "s"
-    break
-  else 
+    puts "s"
+  else
     def invalid_command
     puts "Please enter a valid command"
     end
