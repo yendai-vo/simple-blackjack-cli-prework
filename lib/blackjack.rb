@@ -55,5 +55,5 @@ def runner
   until count > 21
     count = hit?(count)
   end
-end_game()
+end_game(count)
 end
