@@ -50,5 +50,10 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  welcome()
+  count = inital_round()
+  until count > 21
+    count = hit?(count)
+  end
+end_game()
 end
