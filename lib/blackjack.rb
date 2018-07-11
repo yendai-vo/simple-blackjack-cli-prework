@@ -28,6 +28,7 @@ def initial_round
     puts "Your cards add up to #{card_total}."
     card_total
   end
+  display_card_total(card_total)
 end
 
 def hit(number)
