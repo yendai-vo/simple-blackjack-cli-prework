@@ -30,19 +30,14 @@ end
 
 def hit(number)
   prompt_user()
-  def get_user_input
-    input = gets.chomp
-  end
+  input = get_user_input()
+    
   if input == "h"
-    def deal_card2
-      rand(1..11)
-    end
+   deal_card() + number
   elsif input == "s"
     puts "s"
   else
-    def invalid_command
-    puts "Please enter a valid command"
-    end
+    invalid_command()
     prompt_user()
   end
 end
